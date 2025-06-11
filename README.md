@@ -24,6 +24,17 @@ After you install any packages with pip, **run this command to update your requi
 ```bash
 pip freeze > requirements.txt
 ```
+## 🔑 Setting API Keys
+
+Before running any code, set your required API keys as environment variables in your terminal **(never commit your actual keys to this repo):**
+
+```bash
+# Set your Composio API key (replace with your actual key)
+export COMPOSIO_API_KEY=your_composio_key_here
+
+# Set your OpenAI API key (replace with your actual key)
+export OPENAI_API_KEY=your_openai_key_here
+```
 
 ## 1. Tech Stack Package Evaluation Table
 | Package     | Description                                                         | Key Features / What It Can Do                                      | Pros                                          | Cons                                            | Component Fit                    |
